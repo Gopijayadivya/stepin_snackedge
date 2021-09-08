@@ -1,12 +1,10 @@
-# This is a basic workflow to help you get started with Actions
-
 name: Valgrind
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build:
@@ -18,8 +16,4 @@ jobs:
     - name: apt install dependency
       run: |
         sudo apt-get -y install valgrind
-        sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
-    - name: make test
-      run: |
-        make test -C 3_implementation/
-        valgrind ./3_implementation/build/Test_Snackorder.out
+        sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev
