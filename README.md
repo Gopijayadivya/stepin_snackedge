@@ -8,3 +8,5 @@ Simple Snack Ordering System is based on the concept of ordering and serving foo
 [![code grade](https://www.code-inspector.com/project/28198/status/svg)](https://frontend.code-inspector.com/public/project/28198/stepin_snackedge/dashboard)
 
 [![Valgrind](https://github.com/Gopijayadivya/stepin_snackedge/actions/workflows/valgrind.yml/badge.svg)](https://github.com/Gopijayadivya/stepin_snackedge/actions/workflows/valgrind.yml)
+
+[![Unit testing](https://github.com/Gopijayadivya/stepin_snackedge/actions/workflows/unittest.yml/badge.svg)](https://github.com/Gopijayadivya/stepin_snackedge/actions/workflows/unittest.yml)
